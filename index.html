@@ -36,15 +36,17 @@
       <!-- Navber Section Style  -->
       <section class="max-w-screen-xl mx-auto mt-2 md:mt-4 lg:mt-14 px-4">
         <div
-          class="navbar lg:flex justify-between items-center lg:bg-[#F85559] rounded-full"
+          class="navbar flex justify-between lg:bg-[#F85559] rounded-full p-0"
         >
-          <div class="hidden lg:flex text-lg font-medium text-white gap-5 pl-6">
+          <div
+            class="hidden lg:flex text-lg font-medium text-white gap-5 pl-10"
+          >
             <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Shop</a>
             <a href="#">All Fruits</a>
           </div>
-          <div class="flex gap-1 lg:ml-8 my-2">
+          <div class="flex gap-1 my-2 flex-1 justify-center">
             <img class="w-6 md:w-9 lg:w-10" src="./images/logo.png" alt="" />
             <h1
               class="text-xl md:text-3xl lg:text-4xl font-bold text-black lg:text-white"
@@ -52,7 +54,17 @@
               Fruit Burst
             </h1>
           </div>
-          <div class="flex justify-end flex-1 px-2">
+          <div class="hidden lg:flex">
+            <input
+              class="rounded-full py-2 pl-4 pr-16"
+              placeholder="Search here"
+            />
+            <i
+              class="relative right-8 fa-solid fa-magnifying-glass fa-lg"
+              style="color: #000000"
+            ></i>
+          </div>
+          <div class="flex justify-end px-2">
             <div class="dropdown dropdown-end lg:hidden">
               <label tabindex="0" class=""
                 ><button>
@@ -91,16 +103,6 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="hidden lg:flex">
-            <input
-              class="rounded-full py-2 pl-4 pr-16"
-              placeholder="Search here"
-            />
-            <i
-              class="relative right-8 fa-solid fa-magnifying-glass fa-lg"
-              style="color: #000000"
-            ></i>
           </div>
         </div>
       </section>
@@ -305,7 +307,7 @@
           <h1 class="text-xl md:text-3xl lg:text-5xl font-extrabold">
             Deal Of The Day
           </h1>
-          <p class="text-base font-medium mt-5 px-3 md:px-16 lg:p-0 max-w-2xl">
+          <p class="text-base font-medium mt-5 px-3 lg:p-0">
             Contrary to popular belief, is not simply random text. It has roots
             in a piece of classical Latin literature from 45 BC, making it over
             2000 years old.
@@ -1076,19 +1078,17 @@
           years old.
         </p>
       </div>
-      <div
-        class="grid md:grid-cols-2 lg:grid-cols-3 justify-evenly items-center mt-11"
-      >
+      <div class="grid lg:grid-cols-3 justify-evenly items-center mt-11">
         <!-- Part 1  -->
         <div
-          class="mt-5 mb-5 md:col-span-2 lg:col-span-1 lg:row-start-1 lg:col-start-2 mx-auto"
+          class="mt-5 mb-5 lg:col-span-1 lg:row-start-1 lg:col-start-2 mx-auto"
         >
           <img src="./images/whychoose1.png" alt="" />
         </div>
         <!-- Part 2  -->
-        <div class="text-center md:text-left">
+        <div class="text-center lg:text-left">
           <!-- Point 1  -->
-          <div class="grid md:flex gap-4 mb-10 lg:mb-4">
+          <div class="grid lg:flex gap-4 mb-10 lg:mb-4">
             <div>
               <i class="fa-solid fa-users fa-xl" style="color: #000000"></i>
             </div>
@@ -1103,7 +1103,7 @@
             </div>
           </div>
           <!-- Point 2  -->
-          <div class="grid md:flex gap-4 mb-10 lg:mb-4">
+          <div class="grid lg:flex gap-4 mb-10 lg:mb-4">
             <div>
               <i class="fa-regular fa-heart fa-xl" style="color: #000000"></i>
             </div>
@@ -1118,7 +1118,7 @@
             </div>
           </div>
           <!-- Point 3  -->
-          <div class="grid md:flex gap-4 mb-10 lg:mb-0">
+          <div class="grid lg:flex gap-4 mb-10 lg:mb-0">
             <div>
               <i class="fa-solid fa-gift fa-xl" style="color: #000000"></i>
             </div>
@@ -1134,9 +1134,9 @@
           </div>
         </div>
         <!-- Part 3  -->
-        <div class="text-center md:text-right">
+        <div class="text-center lg:text-right">
           <!-- Point 1  -->
-          <div class="grid md:flex flex-row-reverse gap-4 mb-10 lg:mb-4">
+          <div class="grid lg:flex flex-row-reverse gap-4 mb-10 lg:mb-4">
             <div>
               <i class="fa-solid fa-carrot fa-xl" style="color: #000000"></i>
             </div>
@@ -1151,7 +1151,7 @@
             </div>
           </div>
           <!-- Point 2  -->
-          <div class="grid md:flex flex-row-reverse gap-4 mb-10 lg:mb-4">
+          <div class="grid lg:flex flex-row-reverse gap-4 mb-10 lg:mb-4">
             <div>
               <i class="fa-solid fa-ice-cream fa-xl" style="color: #000000"></i>
             </div>
@@ -1166,7 +1166,7 @@
             </div>
           </div>
           <!-- Point 3  -->
-          <div class="grid md:flex flex-row-reverse gap-4 mb-10 lg:mb-0">
+          <div class="grid lg:flex flex-row-reverse gap-4 mb-10 lg:mb-0">
             <div>
               <i class="fa-solid fa-thumbs-up fa-xl" style="color: #000000"></i>
             </div>
